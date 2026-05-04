@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: #f1f5f9;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0f172a, #4c1d95, #9333ea);
+    animation: fadeIn 2s ease;
+}
+
+header img {
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+}
+
+/* TITRE */
+h1 {
+    font-size: 42px;
+    margin: 10px;
+    background: linear-gradient(to right, #facc15, #eab308);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* TEXTE */
+.tagline {
+    opacity: 0.9;
+    color: #cbd5f5;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* BOUTONS */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255,255,255,0.4);
+}
+
+/* COULEURS BOUTONS */
+.whatsapp { background: #25D366; }
+.youtube { background: #ff0000; }
+.facebook { background: #1877f2; }
+.instagram { background: linear-gradient(45deg,#e1306c,#facc15); }
+.tiktok { background: #111; }
+.publish { 
+    background: linear-gradient(45deg,#facc15,#f97316);
+    color: black;
+}
+
+/* VIDEO */
+video {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(147,51,234,0.5);
+}
+
+/* UPLOAD */
+.upload-box {
+    border: 2px dashed #9333ea;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
+    color: #94a3b8;
+}
